@@ -13,7 +13,7 @@ public class WorksWithHerokuServlet extends HttpServlet {
         response.setContentType("text/plain");
         response.setStatus(404);
         PrintWriter writer = response.getWriter();
-        writer.print("Purushotham Buddy Works with Heroku");
+        writer.print("Purushotham Buddy Works with Heroku!...");
         writer.close();
     }
 }
